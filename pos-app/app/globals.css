@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;500;600;700&family=Noto+Serif+Thai:wght@600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  background: #F8F5FF;
+  color: #3F2A72;
+  font-family: 'Noto Sans Thai', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+* { -webkit-tap-highlight-color: transparent; }
+
+input, select, textarea, button { font-family: inherit; }
